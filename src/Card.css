@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    width: 25vw;
+    padding: 10px;
+   }
