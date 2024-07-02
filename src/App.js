@@ -8,7 +8,8 @@ function App() {
     <div className="App">
        {data.map((i) => (
                 <Card
-                    name={i.name}
+                key = {i.id}    
+                name={i.name}
                     universe={i.universe}
                     alterego={i.alterego}
                     occupation={i.occupation}
